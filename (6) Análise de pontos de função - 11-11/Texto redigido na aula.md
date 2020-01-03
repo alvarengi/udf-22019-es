@@ -23,13 +23,7 @@ Os exemplos de AIE são os mesmos ALI acima.
 
 #### CÁLCULO DA COMPLEXIDADE DA FUNÇÃO DO TIPO DADOS
 
-|  |  | Tipos de dados |  |
-| Tipos de registros | Baixa          | Média |  Alta |
-|   ---              | ---            | ---   |  ---  |
-|   **(A)**          | <20            | 20-50 | >50   |
-| **0 ou 1**         | Baixa          | Baixa | Média |  
-| **2**              | Baixa          | Média | Alta  |
-| **>=5**            | Média          | Alta  | Alta  |
+![Tabela A](A.jpg "Tabela A")
 
 Tipos de dados para função do tipo dados referem-se aos atributos (campos) de dados em um ALI/AIE reconhecidos pelo usuário.
 
@@ -98,8 +92,6 @@ Após calcular o fator de ajuste com a fórmula acima calcula-se a quantidade de
 
 Considere a tela de geração de relatórios contábeis anexada que refere-se à um relatório simples gerado ao usuário que lê os seguintes arquivos (todos internos à aplicação que está sendo contada): recibo, itensrecibo, fluxocaixa, auditoria; e contabilize a quantidade de pontos de função não ajustados desta transação.
 
-##### "a tela de geração de relatórios contábeis anexada": Avaliacao APF 2.pdf
-
 #### Funções dados
 
 | Nome | Tipo | TD | TR | C | PF |
@@ -128,5 +120,9 @@ Pesquisa traz um conjunto de registros, como por exemplo clientes que compraram 
 Exclusão física utiliza DELETE e a exclusão lógica utiliza UPDATE.
 
 Pontos de função: unidade de medida funcional.
+
+Todas as tabelas aqui descritas podem ser encontradas no arquivo APF.jpg.
+
+"a tela de geração de relatórios contábeis anexada": Avaliacao APF 2.pdf
 
 ###### *Não fazem parte do texto originalmente redigido 
