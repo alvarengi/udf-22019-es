@@ -25,22 +25,10 @@ Os exemplos de AIE são os mesmos ALI acima.
 
 ![Tabela A](A.jpg "Tabela A")
 
-Tipos de dados para função do tipo dados referem-se aos atributos (campos) de dados em um ALI/AIE reconhecidos pelo usuário.
-
-Tipos de registro: todo e qualquer agrupamento lógico de dados reconhecido pelo usuário (requisito funcional)
-
 |   (B)   | Baixa  |  Média  |  Alta   |
 |   ---   |  ---   |   ---   |   ---   |
 | **ALI** | 7 P.F. | 10 P.F. | 15 P.F. |
 | **AIE** | 5 P.F. | 7 P.F.  | 10 P.F. |
-
-Funções do tipo dados
-
-| Nome | Tipo | TD | TR | C | PF |
-| --- | --- | --- | --- | --- | --- |
-| Pessoa | ALI | 13 | 0 | Baixa | 7 P.F. | 
-| Cheque | ALI | 21 | 3 | Média | 10 P.F. |
-| Recibo | ALI | 9 | 3 | Baixa | 7 P.F. |
 
 ###### TD: tipos de dado; TR: tipos de registro; C: complexidade; PF: pontos de função
 
@@ -73,14 +61,16 @@ Até a década de 1980 a técnica de análise de pontos de função somente leva
 
 Neste momento foram introduzidas à técnica 14 características ambientais do sistema com o objetivo de quantificar a complexidade do sistema que até então era ignorada. As 14 características gerais do sistema (14CGS) têm o objetivo de calcular o fator de ajuste (FA) que pode incrementar ou decrementar a quantidade de pontos de função calculada em até 35%. Para cada CGS o analista deverá dar uma nota de influência conforme a tabela abaixo: 
 
-Tabela de influência
+Tabela de influência (F)**
 
-| 0 | Nenhuma influência
-| 1 | Influência mínima 
-| 2 | Influência moderada
-| 3 | Influência média
-| 4 | Influência significante
-| 5 | Total influência
+| Influência | Nível de influência |
+| --- | --- |
+| 0 | Nenhuma influência |
+| 1 | Influência mínima  |
+| 2 | Influência moderada |
+| 3 | Influência média |
+| 4 | Influência significante |
+| 5 | Total influência |
 
 Após medir as 14CGS aplica-se a fórmula abaixo para o cálculo do fator de ajuste: 
 
@@ -115,6 +105,10 @@ Considere a tela de geração de relatórios contábeis anexada que refere-se à
 ### Anotações*
 **A ANÁLISE DE PONTOS DE FUNÇÃO SOMENTE SERVE PARA MANUTENÇÕES EVOLUTIVAS OU NOVOS SISTEMAS. NÃO SERVE PARA MANUTENÇÕES CORRETIVAS.**
 
+Tipos de dados para função do tipo dados referem-se aos atributos (campos) de dados em um ALI/AIE reconhecidos pelo usuário.
+
+Tipos de registro: todo e qualquer agrupamento lógico de dados reconhecido pelo usuário (requisito funcional).
+
 Pesquisa traz um conjunto de registros, como por exemplo clientes que compraram no primeiro trimestre conosco acima de 10 mil unidades monetárias. Já a consulta pega apenas um registro. Pesquisa retorna um dataset (conjunto de registros); consulta é o detalhamento de um registro.
 
 Exclusão física utiliza DELETE e a exclusão lógica utiliza UPDATE.
@@ -123,6 +117,7 @@ Pontos de função: unidade de medida funcional.
 
 Todas as tabelas aqui descritas podem ser encontradas no arquivo APF.jpg.
 
-"a tela de geração de relatórios contábeis anexada": Avaliacao APF 2.pdf
+"a tela de geração de relatórios contábeis anexada": Avaliacao APF 11.pdf
 
 ###### *Não fazem parte do texto originalmente redigido 
+###### ***A tabela de influência (representada pela letra F) não possui cabeçalho contendo "influência" e "nível de influência" originalmente.
